@@ -15,7 +15,7 @@ Package of console programs written in Python programming language. There are 4 
         - only numbers;
         - only uppercase chars;
         - only lowercase chars;
-        - all variants.
+        - all variants.  
     All parameters are inclusive (both points are taken into account).
 
 - Soundwave generator: a tool that generates sound wave based on parameters:
@@ -23,7 +23,7 @@ Package of console programs written in Python programming language. There are 4 
     - duration (1-60 seconds);
     - amplitude (float in range 0-1);
     - start (usually lowest) frequency point (≥ 1 Hz);
-    - end (usually highest) frequncy point (≤ 384000 Hz).
+    - end (usually highest) frequncy point (≤ 384000 Hz).  
     All parameters are inclusive.
 
 - Temp cleaner: a tool that cleans the `TEMP` directory on your computer. Only free (not taken by other processes) files will be deleted from directory.
