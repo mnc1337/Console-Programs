@@ -1,6 +1,6 @@
 # Console-Programs
 
-Package of webprograms. There are 4 programs that are used for different tasks. Every program is standalone and consists of executable file (.exe) and sources (files on which program is based). Programs will be also named as `tools`.
+Package of webprograms. There are 4 programs that are used for different tasks. Every program is standalone and consists of executable file (.exe) and sources (files on which program is based). Programs will be also named as `tools`.  
 `P.S.` **File creator** and **Temp cleaner** programs are connected with each other (one program creates files, another deletes them).
 
 ---
