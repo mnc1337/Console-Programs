@@ -26,7 +26,7 @@ Package of console programs written in Python programming language. There are 4 
     - start (usually lowest) frequency point (≥ 1 Hz);
     - end (usually highest) frequncy point (≤ 384000 Hz).
 
-    The generated sound wave is saved as a `.wav` file (raw, uncompressed audio). Optionally, you can save a .log file with all file parameters, which will be created in the same directory as the sound file.
+    The generated sound wave is saved as a `.wav` file (raw, uncompressed audio). Optionally, you can save a `.log` file with all file parameters, which will be created in the same directory as the sound file.
 
 
 - Temp cleaner: a tool that cleans the `TEMP` directory on your computer. Usually, it's C:\Users`{User}`\Appdata\Local\Temp (User - your username in system). Only free (not taken by other processes) files will be deleted from directory. You can use one of next commands in CMD to see directory for temporary files on your computer: echo %TEMP% or echo %TMP%. Also you can choose an easier way and write temp after using the next combination: Win + R.
