@@ -9,22 +9,20 @@ Package of console programs written in Python programming language. There are 4 
 
 - File creator: a tool that creates file (in `TEMP` directory) for `Temp cleaner` (is described below) to clean a directory if there is not any available for deleting file (or all files in directory are taken by other processes).
 
-- Password generator: a tool that generates passwords based on 2 parameters:
+- Password generator: a tool that generates passwords based on 2 parameters (all parameters are inclusive - both points are taken into account):
     - length (8-32 chars);
     - charset (4 variants, only 1 can be chosen):
         - only numbers;
         - only uppercase chars;
         - only lowercase chars;
-        - all variants.  
-    All parameters are inclusive (both points are taken into account).
+        - all variants.
 
-- Soundwave generator: a tool that generates sound wave based on parameters:
+- Soundwave generator: a tool that generates sound wave based on parameters (all parameters are inclusive):
     - sample rate (1-768000 Hz);
     - duration (1-60 seconds);
     - amplitude (float in range 0-1);
     - start (usually lowest) frequency point (≥ 1 Hz);
-    - end (usually highest) frequncy point (≤ 384000 Hz).  
-    All parameters are inclusive.
+    - end (usually highest) frequncy point (≤ 384000 Hz).
 
 - Temp cleaner: a tool that cleans the `TEMP` directory on your computer. Only free (not taken by other processes) files will be deleted from directory.
 
