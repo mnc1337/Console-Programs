@@ -37,7 +37,7 @@ There is a `_security` folder in projects structure. It contains an archive with
 
 ## License
 
-This project is licensed under the MIT license. See the LICENSE file in root directory for details.
+This project is licensed under the MIT license. See the `LICENSE` file in root directory for details.
 
 ---
 
