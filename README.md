@@ -35,7 +35,8 @@ Package of console programs written in Python programming language. There are 4 
 
 ## Security
 
-There is a `_security` folder in projects structure. It contains an archive with a nested archive and an `.asc` file - digital signature. **To check archive originality**, you can download archive **from `_security` folder**, extract nested archive (`.7z`) and `.asc` file from it to directory **selected by you** and use there the next command in Bash/WSL console: `gpg --verify console_programs_archive.7z.asc console_programs_archive.7z` - first parameter is a digital signature (.asc file), second parameter is an archive.
+There is a `_security` folder in projects structure. It contains an archive with a nested archive and an `.asc` file - digital signature. **To check archive originality**, you can download archive **from `_security` folder**, extract nested archive (`.7z`) and `.asc` file from it to directory **selected by you** and use there the next command in Bash/WSL console: `gpg --verify console_programs_archive.7z.asc console_programs_archive.7z` - first parameter is a digital signature (.asc file), second parameter is an archive.  
+`Notification` All programs are safe for user and tested before the release. If you don't trust the source, you can execute it in any virtual environment you want: e.g. VirtualBox or Windows Sandbox to make sure it's safe.
 
 ## License
 
