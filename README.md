@@ -33,11 +33,9 @@ Package of console programs written in Python programming language. There are 4 
 
 - **Temp cleaner**: a tool that cleans the `TEMP` directory on your computer. Usually, it's **C:\Users`{User}`\Appdata\Local\Temp** (User - your username in system). Only free (not taken by other processes) files will be deleted from directory. You can use one of next commands in CMD to see directory for temporary files on your computer: `echo %TEMP%` or `echo %TMP%`. Also you can choose an easier way and write `temp` after using the next combination: `Win + R`.
 
-
 ## Security
 
 There is a `_security` folder in projects structure. It contains an archive with a nested archive and an `.asc` file - digital signature. **To check archive originality**, you can download archive **from `_security` folder**, extract nested archive (`.7z`) and `.asc` file from it to directory **selected by you** and use there the next command in Bash/WSL console: `gpg --verify console_programs_archive.7z.asc console_programs_archive.7z` - first parameter is a digital signature (.asc file), second parameter is an archive.
-
 
 ## License
 
