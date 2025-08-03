@@ -7,12 +7,12 @@ Package of console programs written in Python programming language. There are 4 
 
 ## Programs in package
 
-- **File copier**: a tool that copies files (and directories if there is not any system error during processing the task, e.g. PermissionError, OSError (includes many other system errors)). It requires 3 parameters (all parameters ranges are inclusive - both points are taken into account):
+- **File copier**: a tool that copies files (and directories if there is not any system error during processing the task, e.g. PermissionError, OSError (includes many other system errors)) based on 3 parameters (all parameters ranges are inclusive - both points are taken into account):
     - start path: a path **from** which file (or files) will be copied;
     - end path: a path **to** which file (or files) will be copied;
     - interval (1-600 s): the time interval between consecutive copying operations.
 
-- **File creator**: a tool that creates file (in `TEMP` directory) for `Temp cleaner` (is described below) to clean a directory if there is not any available for deleting file (or all files in directory are taken by other processes). It supports creating any number of files in the next range: 1-1000. Every program running rewrites files that were created earlier using this program or that have the same name as new-generated files.
+- **File creator**: a tool that creates file (in `TEMP` directory) for `Temp cleaner` (is described below) to clean a directory if there is not any available for deleting file (or all files in directory are taken by other processes). It supports creating any number of files in the following range: [1; 1000]. Every program running rewrites files that were created earlier using this program or that have the same name as new-generated files.
 
 - **Password generator**: a tool that generates passwords based on 2 parameters (all parameters ranges are inclusive):
     - length (8-32 chars);
@@ -22,7 +22,12 @@ Package of console programs written in Python programming language. There are 4 
         - only lowercase chars;
         - all variants.
 
-- **Soundwave generator**: a tool that generates sound wave based on parameters (all parameters ranges are inclusive):
+- **Request sender**: a tool that sends requests to specified URL based on 3 parameters (all parameters ranges are inclusive):
+    - URL (an address for sending request(s));
+    - request method (one of the next methods: `GET`, `HEAD`, `OPTIONS`, `POST`, `PUT`, `PATCH`, `DELETE`);
+    - number of requests (number in the following range: [1; 1000]).
+
+- **Soundwave generator**: a tool that generates sound wave based on 5 parameters (all parameters ranges are inclusive):
     - sample rate (1-768000 Hz);
     - duration (1-60 s);
     - amplitude (float, range: 0-1);
